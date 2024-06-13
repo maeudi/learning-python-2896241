@@ -46,7 +46,7 @@ def main():
     parser = MyHTMLParser()
       
     # open the sample HTML file and read it
-    f = open("samplehtml.html")
+    f = open("/workspaces/learning-python-2896241/Ch5 - Internet Data/samplehtml.html")
     if f.mode == "r":
         contents = f.read() # read the entire file
         parser.feed(contents)
